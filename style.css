@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@100&family=Rancho&display=swap');
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Rancho', cursive;
+font-size: 30px;
+}
+a{
+text-decoration: none;
+color:#094b65 ;
+}
+body
+{
+overflow-x: hidden;
+background: #fff;
+min-height: 100vh;
+
+}
+
+
+#hd{
+position: absolute;
+top: 0;
+left: 0;
+width:100%;
+padding: 30px 100px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#hd.logo
+{
+color:#094b65 ;
+font-size:2em ;
+font-weight: 700;
+text-decoration: none;
+
+}
+#hd ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hd ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+#hd ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #094b65;
+border-radius: 20px;
+transition:.3s ease;
+}
+#sec
+{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    min-height: 90vh;
+    justify-content:center;
+    align-items: center;
+}
+#text
+{
+font-size: 8vw;
+color: rgb(1, 16, 16);
+position:absolute;
+text-align: center;
+}
+
+#hd ul li a:hover,
+#hd ul li a.active
+{
+background:#094b65;
+color: #fffafa;
+
+}
